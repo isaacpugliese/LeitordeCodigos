@@ -1,0 +1,36 @@
+body{
+  background-color: black;
+  background: url("../img1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+.box h1{
+  font-size: 7vw;
+  border-bottom: 6px solid #3a8b70;
+  margin-bottom: 50px;
+  padding: 20px 0;
+  text-align: center;
+  color: lightgray;
+}
+
+
+.box button{
+  border: none;
+  outline: none;
+  background: none;
+  color: lightgray;
+  font-size: 5vw;
+  width: 40%;
+  margin-top: 40%;
+  transition: 0.25s;
+  text-align: center;
+  margin-left: 30%;
+  border-bottom: 1px solid #3a8b70;
+  border-radius: 5px;
+}
+
+.box button:hover{
+  background: #3a8b70;
+}
