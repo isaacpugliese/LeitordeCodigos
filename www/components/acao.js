@@ -1,4 +1,4 @@
-$(document).on("click","#leitorCodigo",function(){
+$(document).on("click","#leitor",function(){
   cordova.plugins.barcodeScanner.scan(
       function (result) {
         if(result.text == "280720550"){
