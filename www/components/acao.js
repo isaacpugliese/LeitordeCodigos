@@ -2,16 +2,16 @@ $(document).on("click","#leitor",function(){
   cordova.plugins.barcodeScanner.scan(
       function (result) {
         if(result.text == "280720550"){
-          $(location).attr("href","ipad.html");
+          $(location).attr("href","https://www.apple.com/br/shop/buy-ipad/ipad-mini/64gb-cinza-espacial-wifi");
         }
         if(result.text == "989895555"){
-          $(location).attr("href","j8.html");
+          $(location).attr("href","https://www.samsung.com/br/smartphones/galaxy-j8-j810/SM-J810MZKKZTO/");
         }
         if(result.text == "85236987"){
-          $(location).attr("href","one.html");
+          $(location).attr("href","https://www.motorola.com.br/motorola-one/p");
         }
         if(result.text == "85369877444"){
-          $(location).attr("href","zenfone.html");
+          $(location).attr("href","https://loja.asus.com.br/asus-zenfone-max-pro-m1-4gb-64gb-preto-ag-1-4-1005640");
         }
         if(result.text == result){
           $(location).attr("url",result)
